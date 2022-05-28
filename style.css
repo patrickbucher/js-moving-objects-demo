@@ -1,0 +1,59 @@
+div#container {
+    position: relative;
+    width: 800px;
+    height: 400px;
+    margin: 50px;
+    border: 1px solid black;
+}
+
+div#face {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 100px;
+    border: 1px solid black;
+    border-radius: 100%;
+    background-color: yellow;
+}
+
+div#inner-face {
+    position: relative;
+}
+
+div.eye {
+    position: absolute;
+    top: 32px;
+    background-color: blue;
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+}
+
+div#left-eye {
+    left: 24px;
+}
+
+div#right-eye {
+    right: 24px;
+}
+
+div#nose {
+    position: absolute;
+    left: 48px;
+    top: 48px;
+    background-color: black;
+    border-radius: 5px;
+    width: 5px;
+    height: 16px;
+}
+
+div#mouth {
+    position: absolute;
+    left: 24px;
+    top: 72px;
+    background-color: red;
+    border-radius: 5px;
+    width: 52px;
+    height: 5px;
+}
