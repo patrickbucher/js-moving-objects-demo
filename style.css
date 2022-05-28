@@ -10,8 +10,6 @@ div#face {
     position: absolute;
     width: 100px;
     height: 100px;
-    top: 100px;
-    left: 100px;
     border: 1px solid black;
     border-radius: 100%;
     background-color: yellow;
